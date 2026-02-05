@@ -1,0 +1,105 @@
+{
+  "MainPage": {
+    "slogan": "Creating inclusive futures by designing with care"
+  },
+  "Header": {
+    "home": "Home",
+    "stories": "Stories",
+    "product": "Product",
+    "contact": "Contact",
+    "switchToEnglish": "Switch to English",
+    "switchToDanish": "Switch to Danish"
+  },
+  "Footer": {
+    "supportedBy": "Supported by",
+    "address1": "The Kitchen, Universitetsbyen 14",
+    "address2": "8000 Aarhus C",
+    "copyright": "Sofina. All rights reserved."
+  },
+  "StoriesPage": {
+    "title": "Have you ever felt unsafe?",
+    "intro": "Too many women carry their uncomfortable experiences alone — but it doesn't have to be that way. Here you can anonymously share your story and help make visible how many women feel unsafe. When we stand together and share our experiences, we break the silence and make insecurity and boundary-crossing behavior visible. Together we can create a strong community and take the first step towards a safer future for everyone!",
+    "placeholder": "Share your story here...",
+    "disclaimer": "NOTE: Your story may be shared anonymously on our Instagram @sofina.dk and on our website. If you wish to remain completely anonymous, please omit personal information in your story.",
+    "submitButton": "Send",
+    "submitting": "Sending...",
+    "successMessage": "Thank you for your story. Your voice matters.",
+    "otherStories": "Other stories",
+    "anonymous": "Anonymous",
+    "story1": "I was waiting for the bus on a dark evening after a long day at work. There were almost no people, just a man standing further down at the stop. I noticed he started pacing back and forth, then he stared intensely at me. I tried to ignore it, but when the bus finally came, he sat down close to me even though the bus was almost empty. He started asking questions about where I was going. I felt trapped and didn't know what to do, so I got off two stops before my own and ran home.",
+    "story2": "I took a taxi home after a long day because I couldn't handle public transport. The taxi driver seemed nice at first, but after a while he started asking if I had a boyfriend and why I was alone so late. I tried to give short answers, but he kept asking and looking at me in the rearview mirror. When we arrived, he offered to give me a free ride another time if I gave him my number. I quickly said no thank you and hurried out of the car with a knot in my stomach."
+  },
+  "ProductPage": {
+    "title": "Heart2Heart",
+    "intro": "We have created Heart2Heart — a combination of an app and a safety keychain with built-in alarm — designed to provide a feeling of safety in all unsafe situations — not just in acute danger. Have you ever felt unsafe when you were on your way home from town, or out after dark? If so, you may have also tried taking a detour to avoid a certain area, shared your location with others, talked on the phone, or grabbed your keys in your pocket. If you recognize any of these scenarios, we can tell you that you are far from alone.",
+    "howItWorks": "How does it work?",
+    "shareLocation": "Share location",
+    "shareLocationDesc": "Share your location with your trusted contacts so they always know where you are. It provides security — both for you and those who love you.",
+    "callForHelp": "Call for help",
+    "callForHelpDesc": "Allows you to ask your network to follow in real time when you feel unsafe. Your loved ones can follow and react quickly if necessary.",
+    "alert112": "Alert 112",
+    "alert112Desc": "In acute situations, the keychain can activate the phone's emergency call directly to 112, so help is never far away.",
+    "waitlistTitle": "Join the waitlist",
+    "waitlistDesc": "Be among the first to experience Heart2Heart. Sign up for the waitlist and get notified when we launch.",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "Your email",
+    "signUpButton": "Sign me up",
+    "signingUp": "Signing up...",
+    "waitlistSuccess": "You are now on the waitlist! We will contact you soon.",
+    "appScreenAlt": "App screenshot"
+  },
+  "ContactPage": {
+    "title": "Contact us",
+    "subtitle": "We would love to hear from you. Reach out to our team.",
+    "ceo": "CEO & Founder",
+    "generalInquiries": "General inquiries",
+    "generalInquiriesDesc": "For general questions or collaboration opportunities, contact us at:"
+  },
+  "NotFound": {
+    "title": "404",
+    "message": "Page not found",
+    "backHome": "Back to home"
+  },
+  "PulsingHeart": {
+    "text": "Have you ever felt unsafe?",
+    "clickHint": "Click to learn more"
+  },
+  "LockscreenNotification": {
+    "screen1Name": "Sofie Mønster",
+    "screen1Message": "Feels unsafe! Open the app to help make her feel safer <3",
+    "screen1Time": "2 min ago",
+    "screen2Name": "Emma Nielsen",
+    "screen2Message": "Needs help - can you follow along until I'm home?",
+    "screen2Time": "just now",
+    "screen3Name": "Laura Hansen",
+    "screen3Message": "Unsafe situation - follow my location",
+    "screen3Time": "5 min ago"
+  },
+  "AppNotificationScreen": {
+    "screen1Name": "Sofie",
+    "screen1Message": "feels unsafe, help make her feel safer",
+    "screen2Name": "Emma",
+    "screen2Message": "needs help, follow along until she's home",
+    "screen3Name": "Laura",
+    "screen3Message": "is in an unsafe situation, follow her location",
+    "sendVibration": "Send vibration",
+    "seeLocation": "See location"
+  },
+  "MapScreen": {
+    "screen1Name": "Sofie",
+    "screen1Distance": "You are 2.4 km away from Sofie",
+    "screen1WalkTime": "15 min.",
+    "screen1BikeTime": "6 min.",
+    "screen1CarTime": "4 min.",
+    "screen2Name": "Emma",
+    "screen2Distance": "You are 1.8 km away from Emma",
+    "screen2WalkTime": "12 min.",
+    "screen2BikeTime": "5 min.",
+    "screen2CarTime": "3 min.",
+    "screen3Name": "Laura",
+    "screen3Distance": "You are 3.2 km away from Laura",
+    "screen3WalkTime": "18 min.",
+    "screen3BikeTime": "8 min.",
+    "screen3CarTime": "5 min."
+  }
+}

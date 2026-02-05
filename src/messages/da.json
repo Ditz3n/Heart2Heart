@@ -1,0 +1,105 @@
+{
+  "MainPage": {
+    "slogan": "Creating inclusive futures by designing with care"
+  },
+  "Header": {
+    "home": "Forside",
+    "stories": "Historier",
+    "product": "Produkt",
+    "contact": "Kontakt",
+    "switchToEnglish": "Switch to English",
+    "switchToDanish": "Skift til dansk"
+  },
+  "Footer": {
+    "supportedBy": "Støttet af",
+    "address1": "The Kitchen, Universitetsbyen 14",
+    "address2": "8000 Aarhus C",
+    "copyright": "Sofina. Alle rettigheder forbeholdes."
+  },
+  "StoriesPage": {
+    "title": "Har du nogensinde følt dig utryg?",
+    "intro": "Alt for mange kvinder bærer deres ubehagelige oplevelser alene — men det behøver ikke være sådan. Her kan du anonymt dele din historie og bidrage til at synliggøre, hvor mange kvinder, der føler sig utrygge. Når vi står sammen og deler vores oplevelser, bryder vi tavsheden og gør utryghed og grænseoverskridende adfærd synlig. Sammen kan vi skabe et stærkt fællesskab og tage første skridt mod en tryggere fremtid for alle!",
+    "placeholder": "Del din historie her...",
+    "disclaimer": "OBS: Din historie kan muligvis blive delt anonymt på vores Instagram @sofina.dk og på vores hjemmeside. Hvis du ønsker at forblive helt anonym, bedes du undlade personlige oplysninger i din historie.",
+    "submitButton": "Send",
+    "submitting": "Sender...",
+    "successMessage": "Tak for din historie. Din stemme betyder noget.",
+    "otherStories": "Andres historier",
+    "anonymous": "Anonym",
+    "story1": "Jeg ventede på bussen en mørk aften efter en lang dag på arbejde. Der var næsten ingen mennesker, kun en mand, der stod længere nede ved stoppestedet. Jeg lagde mærke til, at han begyndte at gå frem og tilbage, og så kiggede han intenst på mig. Jeg prøvede at ignorere det, men da bussen endelig kom, satte han sig tæt ved mig, selvom bussen var næsten tom. Han begyndte at stille spørgsmål om, hvor jeg skulle hen. Jeg følte mig fanget og vidste ikke, hvad jeg skulle gøre, så jeg stod af to stop før mit eget og løb hjem.",
+    "story2": "Jeg tog en taxa hjem efter en lang dag, fordi jeg ikke orkede offentlig transport. Taxachaufføren virkede flink i starten, men efter noget tid begyndte han at spørge, om jeg havde en kæreste, og hvorfor jeg var alene så sent. Jeg prøvede at give korte svar, men han blev ved med at spørge og kiggede på mig i bakspejlet. Da vi nåede frem, tilbød han at køre mig gratis en anden gang, hvis jeg gav ham mit nummer. Jeg takkede hurtigt nej og skyndte mig ud af bilen med en klump i maven."
+  },
+  "ProductPage": {
+    "title": "Heart2Heart",
+    "intro": "Vi har skabt Heart2Heart — en kombination af en app og en trygheds nøglering med indbygget alarm— der er designet til at give følelsen af tryghed i alle utrygge situationer — ikke kun ved akut fare. Har du nogensinde følt dig utryg, når du var på vej hjem fra byen, eller ude efter mørkets frembrud? Hvis ja, så har du måske også prøvet at tage en omvej for at undgå et bestemt område, delt din lokation med andre, talt i telefon eller grebet fat om dine nøgler i lommen. Hvis du kan genkende nogle af disse scenarier, kan vi fortælle dig, at du er langt fra alene.",
+    "howItWorks": "Hvordan virker det?",
+    "shareLocation": "Del lokation",
+    "shareLocationDesc": "Del din lokation med dine betroede kontakter, så de altid ved, hvor du er. Det giver tryghed — både for dig og dem, der holder af dig.",
+    "callForHelp": "Tilkald hjælp",
+    "callForHelpDesc": "Giver dig mulighed for at anmode dit netværk om at følge med i realtid, når du føler dig utryg. Dine nærmeste kan følge med og reagere hurtigt, hvis det bliver nødvendigt.",
+    "alert112": "Alarmér 112",
+    "alert112Desc": "I akutte situationer kan nøgleringen aktivere telefonens nødopkald direkte til 112, så hjælpen aldrig er langt væk.",
+    "waitlistTitle": "Kom på ventelisten",
+    "waitlistDesc": "Vær blandt de første til at opleve Heart2Heart. Tilmeld dig ventelisten og få besked, når vi lancerer.",
+    "namePlaceholder": "Dit navn",
+    "emailPlaceholder": "Din email",
+    "signUpButton": "Skriv mig op",
+    "signingUp": "Tilmelder...",
+    "waitlistSuccess": "Du er nu på ventelisten! Vi kontakter dig snart.",
+    "appScreenAlt": "App skærmbillede"
+  },
+  "ContactPage": {
+    "title": "Kontakt os",
+    "subtitle": "Vi vil meget gerne høre fra dig. Ræk ud til vores team.",
+    "ceo": "CEO & Founder",
+    "generalInquiries": "Generelle henvendelser",
+    "generalInquiriesDesc": "For generelle spørgsmål eller samarbejdsmuligheder, kontakt os på:"
+  },
+  "NotFound": {
+    "title": "404",
+    "message": "Siden blev ikke fundet",
+    "backHome": "Tilbage til forsiden"
+  },
+  "PulsingHeart": {
+    "text": "Har du nogensinde følt dig utryg?",
+    "clickHint": "Klik for at lære mere"
+  },
+  "LockscreenNotification": {
+    "screen1Name": "Sofie Mønster",
+    "screen1Message": "Føler sig utryg! Åben appen for at gøre hende mere tryg <3",
+    "screen1Time": "2 min siden",
+    "screen2Name": "Emma Nielsen",
+    "screen2Message": "Har brug for hjælp - kan du følge med indtil jeg er hjemme?",
+    "screen2Time": "netop nu",
+    "screen3Name": "Laura Hansen",
+    "screen3Message": "Utryg situation - følg min lokation",
+    "screen3Time": "5 min siden"
+  },
+  "AppNotificationScreen": {
+    "screen1Name": "Sofie",
+    "screen1Message": "føler sig utryg, hjælp med at gøre hende mere tryg",
+    "screen2Name": "Emma",
+    "screen2Message": "har brug for hjælp, følg med indtil hun er hjemme",
+    "screen3Name": "Laura",
+    "screen3Message": "er i en utryg situation, følg hendes lokation",
+    "sendVibration": "Send vibration",
+    "seeLocation": "Se lokation"
+  },
+  "MapScreen": {
+    "screen1Name": "Sofie",
+    "screen1Distance": "Du er 2,4 km væk fra Sofie",
+    "screen1WalkTime": "15 min.",
+    "screen1BikeTime": "6 min.",
+    "screen1CarTime": "4 min.",
+    "screen2Name": "Emma",
+    "screen2Distance": "Du er 1,8 km væk fra Emma",
+    "screen2WalkTime": "12 min.",
+    "screen2BikeTime": "5 min.",
+    "screen2CarTime": "3 min.",
+    "screen3Name": "Laura",
+    "screen3Distance": "Du er 3,2 km væk fra Laura",
+    "screen3WalkTime": "18 min.",
+    "screen3BikeTime": "8 min.",
+    "screen3CarTime": "5 min."
+  }
+}
