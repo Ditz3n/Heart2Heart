@@ -1,16 +1,18 @@
-import { useTranslations } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
 import { setRequestLocale } from 'next-intl/server';
 import { ExampleNavbar } from '@/components/ExampleNavbar';
 
 type Props = {
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 };
 
-export default function HomePage({ params: { locale } }: Props) {
+export default async function HomePage({ params }: Props) {
+  const { locale } = await params;
+  
   // Enable static rendering
   setRequestLocale(locale);
 
-  const t = useTranslations('welcome');
+  const t = await getTranslations('welcome');
 
   return (
     <>

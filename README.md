@@ -4,12 +4,14 @@ A Web Application For a startup named Sofina/Heart2Heart
 
 ## Features
 
-- ✅ **Next.js 14** - Latest version with App Router
+- ✅ **Next.js 16** - Latest version with App Router (Turbopack enabled)
+- ✅ **React 19** - Latest React version
 - ✅ **TypeScript** - Type-safe development
 - ✅ **Tailwind CSS** - Utility-first CSS framework
-- ✅ **next-intl** - Internationalization with Danish (da) and English (en) support
+- ✅ **next-intl 4** - Internationalization with Danish (da) and English (en) support
 - ✅ **next-themes** - Dark/Light theme support with system preference detection
 - ✅ **Provider Setup** - Both theme and locale providers wrap the entire app
+- ✅ **Security** - All dependencies updated to patched versions with zero vulnerabilities
 
 ## Getting Started
 
@@ -100,7 +102,10 @@ Add your translation keys to the JSON files in the `messages/` directory:
 
 ### Using Translations in Components
 
+**In Client Components (with 'use client'):**
 ```tsx
+'use client';
+
 import { useTranslations } from 'next-intl';
 
 export function MyComponent() {
@@ -112,6 +117,47 @@ export function MyComponent() {
       <p>{t('description')}</p>
     </div>
   );
+}
+```
+
+**In Server Components (async):**
+```tsx
+import { getTranslations } from 'next-intl/server';
+
+export default async function MyPage() {
+  const t = await getTranslations('mySection');
+  
+  return (
+    <div>
+      <h1>{t('title')}</h1>
+      <p>{t('description')}</p>
+    </div>
+  );
+}
+```
+
+### Next.js 16 Important Changes
+
+**Async Params**: In Next.js 16, route params are now async. Update your pages and layouts:
+
+```tsx
+// ✅ Correct - Next.js 16
+export default async function Page({ 
+  params 
+}: { 
+  params: Promise<{ slug: string }> 
+}) {
+  const { slug } = await params;
+  // ... rest of your code
+}
+
+// ❌ Incorrect - Old way
+export default function Page({ 
+  params: { slug } 
+}: { 
+  params: { slug: string } 
+}) {
+  // ... rest of your code
 }
 ```
 
