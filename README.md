@@ -67,7 +67,8 @@ Heart2Heart/
 ├── messages/               # Translation files
 │   ├── da.json            # Danish translations
 │   └── en.json            # English translations
-├── i18n.ts                # i18n configuration
+├── i18n/
+│   └── request.ts         # i18n configuration
 └── middleware.ts          # Next.js middleware for locale handling
 ```
 
@@ -179,7 +180,7 @@ The app uses `next-intl` for internationalization:
 ### Adding a New Language
 
 1. Create a new translation file: `messages/fr.json`
-2. Update `i18n.ts`:
+2. Update `i18n/request.ts`:
 ```ts
 export const locales = ['en', 'da', 'fr'] as const;
 ```
@@ -192,7 +193,7 @@ matcher: ['/', '/(da|en|fr)/:path*']
 
 ### Change Default Locale
 
-Edit `i18n.ts`:
+Edit `i18n/request.ts`:
 ```ts
 export const defaultLocale = 'da' as const; // Change to Danish
 ```
