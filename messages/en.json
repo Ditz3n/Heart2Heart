@@ -1,0 +1,21 @@
+{
+  "welcome": {
+    "title": "Welcome to Heart2Heart",
+    "subtitle": "A web application for the Sofina/Heart2Heart startup"
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "toggle": "Toggle theme"
+  },
+  "language": {
+    "select": "Select language",
+    "danish": "Danish",
+    "english": "English"
+  }
+}

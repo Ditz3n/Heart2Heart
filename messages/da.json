@@ -1,0 +1,21 @@
+{
+  "welcome": {
+    "title": "Velkommen til Heart2Heart",
+    "subtitle": "En webapplikation til Sofina/Heart2Heart startup"
+  },
+  "navigation": {
+    "home": "Hjem",
+    "about": "Om os",
+    "contact": "Kontakt"
+  },
+  "theme": {
+    "light": "Lys",
+    "dark": "Mørk",
+    "toggle": "Skift tema"
+  },
+  "language": {
+    "select": "Vælg sprog",
+    "danish": "Dansk",
+    "english": "Engelsk"
+  }
+}
